@@ -1,0 +1,46 @@
+import java.util.*
+
+class LIFO {
+
+    fun main(){
+        val LIFO : Deque<String> = LinkedList()
+
+        with (LIFO){
+            print("cifri1 :")
+            val num1 = readLine()
+            add(num1)
+            print("cifri2 :")
+            val num2 = readLine()
+            add(num2)
+            print("cifri3 :")
+            val num3 = readLine()
+            add(num3)
+            print("cifri4 : ")
+            val num4 = readLine()
+            add(num4)
+            print("cifri5 :")
+            val num5 = readLine()
+            add(num5)
+            print("cifri6 :")
+            val num6 = readLine()
+            add(num6)
+            print("cifri7 :")
+            val num7 = readLine()
+            add(num7)
+            print("cifri8 :")
+            val num8 = readLine()
+            add(num8)
+            print("cifri9 :")
+            val num9 = readLine()
+            add(num9)
+            print("cifri10 :")
+            val num10 = readLine()
+            add(num10)
+        }
+        while (LIFO.isNotEmpty()) {
+            println(LIFO.removeLast())
+        }
+    }
+
+
+}
